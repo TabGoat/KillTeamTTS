@@ -1,0 +1,1 @@
+KillTeamTTS assets (minimal placeholders)\n\nFiles:\n- models.json: Teams and simple stat blocks for two teams (human, ork)\n- human_model.obj, ork_model.obj: Minimal OBJ placeholder geometry\n- human_texture.datauri.txt, ork_texture.datauri.txt: Base64 data URIs for 1x1 PNG placeholders (rename to .png to use)\n\nThese are deterministic minimal assets for prototyping.

@@ -1,0 +1,1 @@
+# 1x1 PNG data URI placeholder for ork texture\n# Rename this file to ork_texture.png and decode the base64 if needed\n# data URI follows:\ndata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGNgYAAAAAMAASsJTYQAAAAASUVORK5CYII=
