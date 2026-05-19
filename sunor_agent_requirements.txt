@@ -1,0 +1,6 @@
+flask
+requests
+python-dotenv
+boto3
+azure-identity
+azure-keyvault-secrets

@@ -1,0 +1,58 @@
+[2026-05-03T13:39:19.841Z] [INFO] PC Cleanup Service started — running startup cleanup...
+[2026-05-03T13:39:19.844Z] [INFO] Cleanup triggered by: startup
+[2026-05-03T13:39:19.845Z] [INFO] Rotated old log: business-integration-plan.md
+[2026-05-03T13:39:19.850Z] [INFO] === Cleanup started ===
+[2026-05-03T13:39:20.745Z] [INFO] === Cleanup complete in 0.9s ===
+[2026-05-03T13:39:20.745Z] [INFO] Total freed: 7.11 MB across 12 files
+[2026-05-03T13:39:20.745Z] [INFO]   WARN  %TEMP%: 0.03 MB, 7 files (5ms)
+[2026-05-03T13:39:20.746Z] [WARN]          ↳ C:\WINDOWS\TEMP\5tdA7EKUosm8OaEX: EPERM: operation not permitted, unlink 'C:\WINDOWS\TEMP\5tdA7EKUosm8OaEX'
+[2026-05-03T13:39:20.746Z] [INFO]   OK    %LOCALAPPDATA%\Temp: 0.00 MB, 0 files (0ms)
+[2026-05-03T13:39:20.746Z] [INFO]   WARN  C:\Windows\Temp: 0.00 MB, 0 files (0ms)
+[2026-05-03T13:39:20.747Z] [WARN]          ↳ C:\Windows\Temp\5tdA7EKUosm8OaEX: EPERM: operation not permitted, unlink 'C:\Windows\Temp\5tdA7EKUosm8OaEX'
+[2026-05-03T13:39:20.747Z] [INFO]   OK    %LOCALAPPDATA%\Microsoft\Windows\INetCache: 0.00 MB, 1 files (0ms)
+[2026-05-03T13:39:20.747Z] [INFO]   OK    %LOCALAPPDATA%\Microsoft\Windows\INetCookies: 0.00 MB, 0 files (0ms)
+[2026-05-03T13:39:20.748Z] [INFO]   OK    Windows Update Cache: 1.28 MB, 3 files (1ms)
+[2026-05-03T13:39:20.748Z] [INFO]   OK    WER: C:\ProgramData\Microsoft\Windows\WER\ReportArchive: 0.00 MB, 0 files (0ms)
+[2026-05-03T13:39:20.748Z] [INFO]   OK    WER: C:\ProgramData\Microsoft\Windows\WER\ReportQueue: 0.00 MB, 0 files (0ms)
+[2026-05-03T13:39:20.748Z] [DEBUG]   SKIP  Thumbnail/Icon Cache: Path not found
+[2026-05-03T13:39:20.749Z] [INFO]   OK    Crash Dumps: C:\Windows\LiveKernelReports: 0.00 MB, 0 files (0ms)
+[2026-05-03T13:39:20.749Z] [INFO]   OK    Crash Dumps: %LOCALAPPDATA%\CrashDumps: 0.00 MB, 0 files (0ms)
+[2026-05-03T13:39:20.749Z] [DEBUG]   SKIP  Memory Dump (MEMORY.DMP): File not found
+[2026-05-03T13:39:20.749Z] [INFO]   OK    CBS Logs: 5.79 MB, 1 files (1ms)
+[2026-05-03T13:39:20.750Z] [INFO]   WARN  Recycle Bin: 0.00 MB, 0 files (653ms)
+[2026-05-03T13:39:20.750Z] [WARN]          ↳ Command failed: powershell.exe -NoProfile -Command "Clear-RecycleBin -Force -ErrorAction SilentlyContinue"
+[2026-05-03T13:39:20.750Z] [INFO]   OK    DNS Cache: 0.00 MB, 0 files (26ms)
+[2026-05-03T13:39:20.750Z] [INFO]   OK    ARP Cache: 0.00 MB, 0 files (27ms)
+[2026-05-03T13:39:20.750Z] [INFO]   OK    NetBIOS Cache: 0.00 MB, 0 files (26ms)
+[2026-05-03T13:39:20.751Z] [INFO]   OK    Winsock Catalog: 0.00 MB, 0 files (152ms)
+[2026-05-03T13:39:20.751Z] [INFO] Cleanup done — 7.11 MB freed.
+[2026-05-03T13:39:20.751Z] [INFO] Startup cleanup complete. Service is now idle.
+[2026-05-03T23:51:35.004Z] [INFO] PC Cleanup Service started — running startup cleanup...
+[2026-05-03T23:51:35.007Z] [INFO] Cleanup triggered by: startup
+[2026-05-03T23:51:35.008Z] [INFO] Rotated old log: cleanup-2026-04-03.log
+[2026-05-03T23:51:35.011Z] [INFO] === Cleanup started ===
+[2026-05-03T23:51:35.934Z] [INFO] === Cleanup complete in 0.9s ===
+[2026-05-03T23:51:35.934Z] [INFO] Total freed: 0.05 MB across 4 files
+[2026-05-03T23:51:35.934Z] [INFO]   WARN  %TEMP%: 0.00 MB, 2 files (1ms)
+[2026-05-03T23:51:35.935Z] [WARN]          ↳ C:\WINDOWS\TEMP\5tdA7EKUosm8OaEX: EPERM: operation not permitted, unlink 'C:\WINDOWS\TEMP\5tdA7EKUosm8OaEX'
+[2026-05-03T23:51:35.935Z] [INFO]   OK    %LOCALAPPDATA%\Temp: 0.00 MB, 0 files (0ms)
+[2026-05-03T23:51:35.935Z] [INFO]   WARN  C:\Windows\Temp: 0.00 MB, 0 files (1ms)
+[2026-05-03T23:51:35.935Z] [WARN]          ↳ C:\Windows\Temp\5tdA7EKUosm8OaEX: EPERM: operation not permitted, unlink 'C:\Windows\Temp\5tdA7EKUosm8OaEX'
+[2026-05-03T23:51:35.936Z] [INFO]   OK    %LOCALAPPDATA%\Microsoft\Windows\INetCache: 0.00 MB, 1 files (1ms)
+[2026-05-03T23:51:35.936Z] [INFO]   OK    %LOCALAPPDATA%\Microsoft\Windows\INetCookies: 0.00 MB, 0 files (0ms)
+[2026-05-03T23:51:35.936Z] [INFO]   OK    Windows Update Cache: 0.00 MB, 0 files (0ms)
+[2026-05-03T23:51:35.936Z] [INFO]   OK    WER: C:\ProgramData\Microsoft\Windows\WER\ReportArchive: 0.00 MB, 0 files (1ms)
+[2026-05-03T23:51:35.936Z] [INFO]   OK    WER: C:\ProgramData\Microsoft\Windows\WER\ReportQueue: 0.00 MB, 0 files (0ms)
+[2026-05-03T23:51:35.937Z] [DEBUG]   SKIP  Thumbnail/Icon Cache: Path not found
+[2026-05-03T23:51:35.937Z] [INFO]   OK    Crash Dumps: C:\Windows\LiveKernelReports: 0.00 MB, 0 files (0ms)
+[2026-05-03T23:51:35.937Z] [INFO]   OK    Crash Dumps: %LOCALAPPDATA%\CrashDumps: 0.00 MB, 0 files (0ms)
+[2026-05-03T23:51:35.937Z] [DEBUG]   SKIP  Memory Dump (MEMORY.DMP): File not found
+[2026-05-03T23:51:35.938Z] [INFO]   OK    CBS Logs: 0.05 MB, 1 files (1ms)
+[2026-05-03T23:51:35.938Z] [INFO]   WARN  Recycle Bin: 0.00 MB, 0 files (650ms)
+[2026-05-03T23:51:35.938Z] [WARN]          ↳ Command failed: powershell.exe -NoProfile -Command "Clear-RecycleBin -Force -ErrorAction SilentlyContinue"
+[2026-05-03T23:51:35.938Z] [INFO]   OK    DNS Cache: 0.00 MB, 0 files (33ms)
+[2026-05-03T23:51:35.938Z] [INFO]   OK    ARP Cache: 0.00 MB, 0 files (34ms)
+[2026-05-03T23:51:35.939Z] [INFO]   OK    NetBIOS Cache: 0.00 MB, 0 files (31ms)
+[2026-05-03T23:51:35.939Z] [INFO]   OK    Winsock Catalog: 0.00 MB, 0 files (168ms)
+[2026-05-03T23:51:35.939Z] [INFO] Cleanup done — 0.05 MB freed.
+[2026-05-03T23:51:35.939Z] [INFO] Startup cleanup complete. Service is now idle.

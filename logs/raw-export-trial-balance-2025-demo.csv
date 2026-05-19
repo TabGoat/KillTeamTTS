@@ -1,0 +1,29 @@
+entity,fiscal_year_end,account_no,account_name,account_type,debit,credit
+Agneaux de Laval inc.,2025-12-31,1000,Cash,Asset,227359.00,0.00
+Agneaux de Laval inc.,2025-12-31,1100,Accounts Receivable,Asset,42500.00,0.00
+Agneaux de Laval inc.,2025-12-31,1200,Inventory,Asset,31200.00,0.00
+Agneaux de Laval inc.,2025-12-31,1300,Prepaid Expenses,Asset,4300.00,0.00
+Agneaux de Laval inc.,2025-12-31,1500,Equipment,Asset,180000.00,0.00
+Agneaux de Laval inc.,2025-12-31,1501,Accumulated Depreciation,Contra Asset,0.00,36000.00
+Agneaux de Laval inc.,2025-12-31,2000,Accounts Payable,Liability,0.00,28100.00
+Agneaux de Laval inc.,2025-12-31,2100,GST/QST Payable,Liability,0.00,12400.00
+Agneaux de Laval inc.,2025-12-31,2200,Payroll Liabilities,Liability,0.00,6800.00
+Agneaux de Laval inc.,2025-12-31,2300,Current Portion of Long-Term Debt,Liability,0.00,15000.00
+Agneaux de Laval inc.,2025-12-31,2500,Long-Term Debt,Liability,0.00,90000.00
+Agneaux de Laval inc.,2025-12-31,3000,Share Capital,Equity,0.00,120000.00
+Agneaux de Laval inc.,2025-12-31,3100,Retained Earnings,Equity,0.00,40000.00
+Agneaux de Laval inc.,2025-12-31,4000,Sales Revenue,Revenue,0.00,712000.00
+Agneaux de Laval inc.,2025-12-31,4010,Agricultural Subsidies,Revenue,0.00,34200.00
+Agneaux de Laval inc.,2025-12-31,5000,Cost of Goods Sold,COGS,292700.00,0.00
+Agneaux de Laval inc.,2025-12-31,6000,Salaries and Wages,Expense,150000.00,0.00
+Agneaux de Laval inc.,2025-12-31,6100,Rent Expense,Expense,36000.00,0.00
+Agneaux de Laval inc.,2025-12-31,6200,Utilities Expense,Expense,18400.00,0.00
+Agneaux de Laval inc.,2025-12-31,6300,Repairs and Maintenance,Expense,14800.00,0.00
+Agneaux de Laval inc.,2025-12-31,6400,Insurance Expense,Expense,12200.00,0.00
+Agneaux de Laval inc.,2025-12-31,6500,Fuel and Transportation,Expense,9600.00,0.00
+Agneaux de Laval inc.,2025-12-31,6600,Professional Fees,Expense,8500.00,0.00
+Agneaux de Laval inc.,2025-12-31,6700,Marketing Expense,Expense,6200.00,0.00
+Agneaux de Laval inc.,2025-12-31,6800,Interest Expense,Expense,7200.00,0.00
+Agneaux de Laval inc.,2025-12-31,6900,Depreciation Expense,Expense,22200.00,0.00
+Agneaux de Laval inc.,2025-12-31,7000,Other Operating Expenses,Expense,9100.00,0.00
+Agneaux de Laval inc.,2025-12-31,7100,Income Tax Expense,Expense,22241.00,0.00

@@ -1,0 +1,30 @@
+<service>
+	<id>pccleanupagent.exe</id>
+	<name>PC Cleanup Agent</name>
+	<description>Runs a thorough system cleanup (temp files, caches, dumps) on every shutdown.</description>
+	<executable>C:\Program Files\nodejs\node.exe</executable>
+	<argument>C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>C:\Users\2guil\CopilotCLI\dist\service.js</argument>
+	<argument>--scriptoptions=</argument>
+	<argument>--log</argument>
+	<argument>PC Cleanup Agent wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.25</argument>
+	<argument>--wait</argument>
+	<argument>1</argument>
+	<argument>--maxrestarts</argument>
+	<argument>3</argument>
+	<argument>--abortonerror</argument>
+	<argument>n</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>undefined</argument>
+	<logmode>rotate</logmode>
+	<stoptimeout>30sec</stoptimeout>
+	<serviceaccount>
+		<domain>THEBEAST</domain>
+		<user>LocalSystem</user>
+		<password></password>
+	</serviceaccount>
+	<workingdirectory>C:\Users\2guil\CopilotCLI</workingdirectory>
+</service>

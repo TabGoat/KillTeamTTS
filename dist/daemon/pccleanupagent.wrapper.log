@@ -1,0 +1,830 @@
+2026-03-24 01:28:43 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-03-24 01:28:43 - Started 5804
+2026-03-24 01:29:46 - Stopping pccleanupagent.exe
+2026-03-24 01:29:46 - ProcessKill 5804
+2026-03-24 01:29:46 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-03-24 01:30:26 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-03-24 01:30:26 - Started 6936
+2026-03-25 02:22:14 - Stopping pccleanupagent.exe
+2026-03-25 02:22:14 - ProcessKill 6936
+2026-03-25 02:22:14 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-03-25 09:31:46 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-03-25 09:31:46 - Started 6324
+2026-03-25 09:57:01 - Stopping pccleanupagent.exe
+2026-03-25 09:57:01 - ProcessKill 6324
+2026-03-25 09:57:01 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-03-26 08:29:22 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-03-26 08:29:22 - Started 6976
+2026-03-26 08:42:31 - Stopping pccleanupagent.exe
+2026-03-26 08:42:31 - ProcessKill 6976
+2026-03-26 08:42:31 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-03-26 20:40:52 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-03-26 20:40:52 - Started 7156
+2026-03-27 00:55:07 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-03-27 00:55:07 - Started 6964
+2026-03-27 01:03:54 - Stopping pccleanupagent.exe
+2026-03-27 01:03:54 - ProcessKill 6964
+2026-03-27 01:03:54 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-03-27 19:28:01 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-03-27 19:28:01 - Started 6372
+2026-03-28 23:25:34 - Stopping pccleanupagent.exe
+2026-03-28 23:25:34 - ProcessKill 6372
+2026-03-28 23:25:34 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-03-29 08:39:01 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-03-29 08:39:01 - Started 6404
+2026-03-29 23:52:04 - Stopping pccleanupagent.exe
+2026-03-29 23:52:04 - ProcessKill 6404
+2026-03-29 23:52:04 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-03-30 07:39:01 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-03-30 07:39:01 - Started 6744
+2026-03-30 21:48:22 - Stopping pccleanupagent.exe
+2026-03-30 21:48:22 - ProcessKill 6744
+2026-03-30 21:48:22 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-03-31 07:30:40 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-03-31 07:30:40 - Started 6260
+2026-03-31 07:49:22 - Stopping pccleanupagent.exe
+2026-03-31 07:49:22 - ProcessKill 6260
+2026-03-31 07:49:23 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-03-31 21:05:24 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-03-31 21:05:24 - Started 2484
+2026-04-01 00:39:29 - Stopping pccleanupagent.exe
+2026-04-01 00:39:29 - ProcessKill 2484
+2026-04-01 00:39:29 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-01 00:40:10 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-01 00:40:10 - Started 6440
+2026-04-01 23:57:55 - Stopping pccleanupagent.exe
+2026-04-01 23:57:55 - ProcessKill 6440
+2026-04-01 23:57:56 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-02 21:07:42 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-02 21:07:42 - Started 6392
+2026-04-02 23:43:38 - Stopping pccleanupagent.exe
+2026-04-02 23:43:38 - ProcessKill 6392
+2026-04-02 23:43:38 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-03 09:42:29 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-03 09:42:29 - Started 7120
+2026-04-03 23:59:56 - Stopping pccleanupagent.exe
+2026-04-03 23:59:56 - ProcessKill 7120
+2026-04-03 23:59:56 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-04 10:04:33 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-04 10:04:33 - Started 6908
+2026-04-04 10:25:47 - Stopping pccleanupagent.exe
+2026-04-04 10:25:47 - ProcessKill 6908
+2026-04-04 10:25:47 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-04 19:00:47 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-04 19:00:47 - Started 6940
+2026-04-05 02:12:30 - Stopping pccleanupagent.exe
+2026-04-05 02:12:30 - ProcessKill 6940
+2026-04-05 02:12:30 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-05 08:53:29 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-05 08:53:29 - Started 7224
+2026-04-07 01:41:29 - Stopping pccleanupagent.exe
+2026-04-07 01:41:29 - ProcessKill 7224
+2026-04-07 01:41:29 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-07 09:33:33 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-07 09:33:33 - Started 7588
+2026-04-08 00:37:25 - Stopping pccleanupagent.exe
+2026-04-08 00:37:25 - ProcessKill 7588
+2026-04-08 00:37:25 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-08 09:38:19 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-08 09:38:19 - Started 7680
+2026-04-08 09:46:35 - Stopping pccleanupagent.exe
+2026-04-08 09:46:35 - ProcessKill 7680
+2026-04-08 09:46:35 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-08 20:24:39 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-08 20:24:39 - Started 7572
+2026-04-09 01:19:11 - Stopping pccleanupagent.exe
+2026-04-09 01:19:11 - ProcessKill 7572
+2026-04-09 01:19:11 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-09 17:28:12 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-09 17:28:12 - Started 7484
+2026-04-10 00:51:47 - Stopping pccleanupagent.exe
+2026-04-10 00:51:47 - ProcessKill 7484
+2026-04-10 00:51:50 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-10 19:05:15 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-10 19:05:16 - Started 8320
+2026-04-11 01:27:47 - Stopping pccleanupagent.exe
+2026-04-11 01:27:47 - ProcessKill 8320
+2026-04-11 01:27:51 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-11 10:35:23 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-11 10:35:24 - Started 8248
+2026-04-12 23:15:24 - Stopping pccleanupagent.exe
+2026-04-12 23:15:24 - ProcessKill 8248
+2026-04-13 19:23:41 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-13 19:23:42 - Started 6696
+2026-04-13 19:50:29 - Stopping pccleanupagent.exe
+2026-04-13 19:50:29 - ProcessKill 6696
+2026-04-13 19:50:34 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-13 19:54:00 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-13 19:54:01 - Started 7892
+2026-04-14 08:55:53 - Stopping pccleanupagent.exe
+2026-04-14 08:55:53 - ProcessKill 7892
+2026-04-14 19:24:44 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-14 19:24:45 - Started 7772
+2026-04-14 23:05:29 - Stopping pccleanupagent.exe
+2026-04-14 23:05:29 - ProcessKill 7772
+2026-04-15 20:16:20 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-15 20:16:21 - Started 8200
+2026-04-15 21:36:19 - Stopping pccleanupagent.exe
+2026-04-15 21:36:19 - ProcessKill 8200
+2026-04-15 21:36:22 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-15 22:40:09 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-15 22:40:09 - Started 8264
+2026-04-16 00:07:01 - Stopping pccleanupagent.exe
+2026-04-16 00:07:01 - ProcessKill 8264
+2026-04-16 19:25:21 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-16 19:25:22 - Started 6176
+2026-04-17 09:42:17 - Stopping pccleanupagent.exe
+2026-04-17 09:42:17 - ProcessKill 6176
+2026-04-17 20:54:13 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-17 20:54:14 - Started 7324
+2026-04-17 20:55:06 - Stopping pccleanupagent.exe
+2026-04-17 20:55:06 - ProcessKill 7324
+2026-04-17 20:55:06 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-17 20:55:45 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-17 20:55:45 - Started 7404
+2026-04-17 20:55:54 - Stopping pccleanupagent.exe
+2026-04-17 20:55:54 - ProcessKill 7404
+2026-04-17 20:55:54 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-17 20:56:38 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-17 20:56:38 - Started 7336
+2026-04-17 21:06:48 - Stopping pccleanupagent.exe
+2026-04-17 21:06:48 - ProcessKill 7336
+2026-04-17 21:06:48 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-17 21:07:28 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-17 21:07:28 - Started 7480
+2026-04-18 02:25:46 - Stopping pccleanupagent.exe
+2026-04-18 02:25:46 - ProcessKill 7480
+2026-04-18 02:25:46 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-18 11:11:43 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-18 11:11:44 - Started 8836
+2026-04-18 18:33:39 - Stopping pccleanupagent.exe
+2026-04-18 18:33:39 - ProcessKill 8836
+2026-04-18 18:33:39 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-18 20:37:13 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-18 20:37:14 - Started 8716
+2026-04-19 00:03:27 - Stopping pccleanupagent.exe
+2026-04-19 00:03:27 - ProcessKill 8716
+2026-04-19 09:34:10 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-19 09:34:11 - Started 9196
+2026-04-20 01:17:53 - Stopping pccleanupagent.exe
+2026-04-20 01:17:53 - ProcessKill 9196
+2026-04-20 09:31:31 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-20 09:31:32 - Started 8692
+2026-04-20 09:49:28 - Stopping pccleanupagent.exe
+2026-04-20 09:49:28 - ProcessKill 8692
+2026-04-20 09:49:32 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-20 20:55:49 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-20 20:55:50 - Started 8428
+2026-04-21 01:46:58 - Stopping pccleanupagent.exe
+2026-04-21 01:46:58 - ProcessKill 8428
+2026-04-21 01:47:02 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-21 09:49:18 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-21 09:49:19 - Started 8440
+2026-04-21 23:52:30 - Stopping pccleanupagent.exe
+2026-04-21 23:52:30 - ProcessKill 8440
+2026-04-21 23:52:34 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-22 19:32:27 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-22 19:32:28 - Started 7028
+2026-04-22 23:59:19 - Stopping pccleanupagent.exe
+2026-04-22 23:59:19 - ProcessKill 7028
+2026-04-23 09:51:08 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-23 09:51:09 - Started 8688
+2026-04-23 23:47:16 - Stopping pccleanupagent.exe
+2026-04-23 23:47:16 - ProcessKill 8688
+2026-04-23 23:47:20 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-24 09:25:40 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-24 09:25:41 - Started 9088
+2026-04-24 09:34:55 - Stopping pccleanupagent.exe
+2026-04-24 09:34:55 - ProcessKill 9088
+2026-04-24 09:34:59 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-24 18:13:52 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-24 18:13:53 - Started 9072
+2026-04-25 00:46:06 - Stopping pccleanupagent.exe
+2026-04-25 00:46:06 - ProcessKill 9072
+2026-04-25 10:20:36 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-25 10:20:37 - Started 8384
+2026-04-26 02:36:42 - Stopping pccleanupagent.exe
+2026-04-26 02:36:42 - ProcessKill 8384
+2026-04-26 10:07:26 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-26 10:07:26 - Started 9020
+2026-04-27 01:25:24 - Stopping pccleanupagent.exe
+2026-04-27 01:25:24 - ProcessKill 9020
+2026-04-27 01:25:28 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-27 22:37:07 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-27 22:37:08 - Started 9064
+2026-04-28 02:19:02 - Stopping pccleanupagent.exe
+2026-04-28 02:19:02 - ProcessKill 9064
+2026-04-28 20:47:07 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-28 20:47:08 - Started 9148
+2026-04-28 23:23:50 - Stopping pccleanupagent.exe
+2026-04-28 23:23:50 - ProcessKill 9148
+2026-04-29 09:29:08 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-29 09:29:09 - Started 8856
+2026-04-29 09:57:05 - Stopping pccleanupagent.exe
+2026-04-29 09:57:05 - ProcessKill 8856
+2026-04-29 09:57:09 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-04-29 22:10:05 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-04-29 22:10:06 - Started 8928
+2026-05-01 09:10:38 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-01 09:10:39 - Started 8088
+2026-05-01 09:19:54 - Stopping pccleanupagent.exe
+2026-05-01 09:19:54 - ProcessKill 8088
+2026-05-01 09:19:58 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-01 20:30:52 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-01 20:30:53 - Started 8984
+2026-05-02 23:50:34 - Stopping pccleanupagent.exe
+2026-05-02 23:50:34 - ProcessKill 8984
+2026-05-02 23:50:38 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-03 09:39:18 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-03 09:39:19 - Started 9048
+2026-05-03 09:47:32 - Stopping pccleanupagent.exe
+2026-05-03 09:47:32 - ProcessKill 9048
+2026-05-03 09:47:36 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-03 19:51:33 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-03 19:51:34 - Started 8908
+2026-05-05 09:25:15 - Stopping pccleanupagent.exe
+2026-05-05 09:25:15 - ProcessKill 8908
+2026-05-05 09:25:19 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-05 20:34:57 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-05 20:34:58 - Started 8604
+2026-05-05 23:49:27 - Stopping pccleanupagent.exe
+2026-05-05 23:49:27 - ProcessKill 8604
+2026-05-05 23:49:31 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-06 21:24:29 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-06 21:24:30 - Started 8380
+2026-05-07 09:53:14 - Stopping pccleanupagent.exe
+2026-05-07 09:53:14 - ProcessKill 8380
+2026-05-07 20:29:29 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-07 20:29:30 - Started 8748
+2026-05-09 01:16:37 - Stopping pccleanupagent.exe
+2026-05-09 01:16:37 - ProcessKill 8748
+2026-05-09 19:34:21 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-09 19:34:22 - Started 8764
+2026-05-10 02:30:16 - Stopping pccleanupagent.exe
+2026-05-10 02:30:16 - ProcessKill 8764
+2026-05-10 02:30:21 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-10 11:13:35 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-10 11:13:36 - Started 8440
+2026-05-11 01:06:22 - Stopping pccleanupagent.exe
+2026-05-11 01:06:22 - ProcessKill 8440
+2026-05-11 01:06:27 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-11 20:23:58 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-11 20:23:59 - Started 9180
+2026-05-12 00:36:23 - Stopping pccleanupagent.exe
+2026-05-12 00:36:23 - ProcessKill 9180
+2026-05-12 00:36:28 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-12 20:54:55 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-12 20:54:56 - Started 9288
+2026-05-12 23:41:00 - Stopping pccleanupagent.exe
+2026-05-12 23:41:00 - ProcessKill 9288
+2026-05-13 19:27:34 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-13 19:27:35 - Started 9308
+2026-05-14 00:52:08 - Stopping pccleanupagent.exe
+2026-05-14 00:52:08 - ProcessKill 9308
+2026-05-14 22:34:07 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-14 22:34:08 - Started 9172
+2026-05-15 00:22:48 - Stopping pccleanupagent.exe
+2026-05-15 00:22:48 - ProcessKill 9172
+2026-05-15 00:22:52 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-15 18:34:15 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-15 18:34:16 - Started 9040
+2026-05-15 22:47:57 - Stopping pccleanupagent.exe
+2026-05-15 22:47:57 - ProcessKill 9040
+2026-05-15 22:48:42 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-15 22:48:43 - Started 8044
+2026-05-15 22:49:45 - Stopping pccleanupagent.exe
+2026-05-15 22:49:45 - ProcessKill 8044
+2026-05-15 22:49:45 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-15 22:50:27 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-15 22:50:28 - Started 8308
+2026-05-15 22:50:39 - Stopping pccleanupagent.exe
+2026-05-15 22:50:39 - ProcessKill 8308
+2026-05-15 22:50:39 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-15 22:51:28 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-15 22:51:29 - Started 6864
+2026-05-16 00:10:51 - Stopping pccleanupagent.exe
+2026-05-16 00:10:51 - ProcessKill 6864
+2026-05-16 20:18:32 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-16 20:18:33 - Started 9296
+2026-05-17 18:53:12 - Stopping pccleanupagent.exe
+2026-05-17 18:53:12 - ProcessKill 9296
+2026-05-17 18:53:12 - Shutdown exception
+Message:A system shutdown is in progress.
+
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2026-05-17 18:56:31 - Starting C:\Program Files\nodejs\node.exe  C:\Users\2guil\CopilotCLI\node_modules\node-windows\lib\wrapper.js --file C:\Users\2guil\CopilotCLI\dist\service.js --scriptoptions= --log "PC Cleanup Agent wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2026-05-17 18:56:32 - Started 9152

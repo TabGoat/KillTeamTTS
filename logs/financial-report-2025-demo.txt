@@ -1,0 +1,85 @@
+FINANCIAL REPORT (DEMO)
+Entity: Agneaux de Laval inc.
+Fiscal Year End: 2025-12-31
+Prepared On: 2026-04-06
+Currency: CAD
+Basis: Management-prepared statement (unaudited)
+
+Disclaimer:
+This is a synthetic example generated for testing/reporting workflows.
+Figures are fictional and not intended for filing.
+
+============================================================
+INCOME STATEMENT
+For the year ended 2025-12-31
+============================================================
+Revenue
+- Sales Revenue....................................   712,000.00
+- Agricultural Subsidies...........................    34,200.00
+Total Revenue......................................   746,200.00
+
+Cost of Goods Sold
+- Direct COGS......................................   292,700.00
+Gross Profit.......................................   453,500.00
+
+Operating Expenses
+- Salaries and Wages...............................   150,000.00
+- Rent.............................................    36,000.00
+- Utilities........................................    18,400.00
+- Repairs and Maintenance..........................    14,800.00
+- Insurance........................................    12,200.00
+- Fuel and Transportation..........................     9,600.00
+- Professional Fees................................     8,500.00
+- Marketing........................................     6,200.00
+- Interest Expense.................................     7,200.00
+- Depreciation.....................................    22,200.00
+- Other Operating Expenses.........................     9,100.00
+Total Operating Expenses...........................   294,200.00
+
+Income Before Tax..................................   159,300.00
+Income Tax Expense.................................    22,241.00
+Net Income.........................................   137,059.00
+
+============================================================
+BALANCE SHEET
+As at 2025-12-31
+============================================================
+Assets
+Current Assets
+- Cash.............................................   227,359.00
+- Accounts Receivable..............................    42,500.00
+- Inventory........................................    31,200.00
+- Prepaid Expenses.................................     4,300.00
+Total Current Assets...............................   305,359.00
+
+Non-Current Assets
+- Equipment (gross)................................   180,000.00
+- Accumulated Depreciation.........................   (36,000.00)
+Net Non-Current Assets.............................   144,000.00
+
+Total Assets.......................................   449,359.00
+
+Liabilities
+Current Liabilities
+- Accounts Payable.................................    28,100.00
+- GST/QST Payable..................................    12,400.00
+- Payroll Liabilities..............................     6,800.00
+- Current Portion of Long-Term Debt...............    15,000.00
+Total Current Liabilities..........................    62,300.00
+
+Non-Current Liabilities
+- Long-Term Debt...................................    90,000.00
+Total Liabilities..................................   152,300.00
+
+Equity
+- Share Capital....................................   120,000.00
+- Retained Earnings (opening)......................    40,000.00
+- Current Year Net Income..........................   137,059.00
+Total Equity.......................................   297,059.00
+
+Total Liabilities and Equity.......................   449,359.00
+
+Control Checks
+- Balance Sheet balances: PASS
+- Net income tie-out to equity movement: PASS
+- Source tie-out reference: raw-export-trial-balance-2025-demo.csv

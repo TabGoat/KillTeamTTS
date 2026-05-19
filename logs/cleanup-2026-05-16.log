@@ -1,0 +1,93 @@
+[2026-05-16T02:48:43.709Z] [INFO] PC Cleanup Service started — running startup cleanup...
+[2026-05-16T02:48:43.712Z] [INFO] Cleanup triggered by: startup
+[2026-05-16T02:48:43.717Z] [INFO] === Cleanup started ===
+[2026-05-16T02:48:56.154Z] [INFO] === Cleanup complete in 12.4s ===
+[2026-05-16T02:48:56.155Z] [INFO] Total freed: 1682.88 MB across 20004 files
+[2026-05-16T02:48:56.155Z] [INFO]   OK    %TEMP%: 0.07 MB, 8 files (6ms)
+[2026-05-16T02:48:56.155Z] [INFO]   OK    %LOCALAPPDATA%\Temp: 0.00 MB, 0 files (0ms)
+[2026-05-16T02:48:56.155Z] [INFO]   OK    C:\Windows\Temp: 0.00 MB, 0 files (0ms)
+[2026-05-16T02:48:56.156Z] [INFO]   OK    %LOCALAPPDATA%\Microsoft\Windows\INetCache: 0.00 MB, 1 files (0ms)
+[2026-05-16T02:48:56.156Z] [INFO]   OK    %LOCALAPPDATA%\Microsoft\Windows\INetCookies: 0.00 MB, 0 files (0ms)
+[2026-05-16T02:48:56.156Z] [INFO]   WARN  Windows Update Cache: 880.42 MB, 19989 files (10094ms)
+[2026-05-16T02:48:56.157Z] [WARN]          ↳ C:\Windows\SoftwareDistribution\Download\394234bd452e9830064d4e75da6d221f\Metadata\Windows11.0-KB5089549-x64\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.26100.8328_none_87eede957a2ccddd.manifest: EPERM: operation not permitted, unlink 'C:\Windows\SoftwareDistribution\Download\394234bd452e9830064d4e75da6d221f\Metadata\Windows11.0-KB5089549-x64\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.26100.8328_none_87eede957a2ccddd.manifest'
+[2026-05-16T02:48:56.157Z] [WARN]          ↳ C:\Windows\SoftwareDistribution\Download\394234bd452e9830064d4e75da6d221f\Metadata\Windows11.0-KB5089549-x64\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.8457_none_3e0b2faee331e92d.manifest: EPERM: operation not permitted, unlink 'C:\Windows\SoftwareDistribution\Download\394234bd452e9830064d4e75da6d221f\Metadata\Windows11.0-KB5089549-x64\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.8457_none_3e0b2faee331e92d.manifest'
+[2026-05-16T02:48:56.157Z] [WARN]          ↳ C:\Windows\SoftwareDistribution\Download\394234bd452e9830064d4e75da6d221f\Metadata\Windows11.0-KB5089549-x64\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.0.26100.8328_none_7fa19c2da4c1569f.manifest: EPERM: operation not permitted, unlink 'C:\Windows\SoftwareDistribution\Download\394234bd452e9830064d4e75da6d221f\Metadata\Windows11.0-KB5089549-x64\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.0.26100.8328_none_7fa19c2da4c1569f.manifest'
+[2026-05-16T02:48:56.157Z] [WARN]          ↳ ...and 5 more errors
+[2026-05-16T02:48:56.157Z] [INFO]   OK    WER: C:\ProgramData\Microsoft\Windows\WER\ReportArchive: 0.10 MB, 3 files (1ms)
+[2026-05-16T02:48:56.158Z] [INFO]   OK    WER: C:\ProgramData\Microsoft\Windows\WER\ReportQueue: 0.00 MB, 0 files (0ms)
+[2026-05-16T02:48:56.158Z] [DEBUG]   SKIP  Thumbnail/Icon Cache: Path not found
+[2026-05-16T02:48:56.158Z] [INFO]   OK    Crash Dumps: C:\Windows\LiveKernelReports: 0.00 MB, 0 files (0ms)
+[2026-05-16T02:48:56.158Z] [INFO]   OK    Crash Dumps: %LOCALAPPDATA%\CrashDumps: 0.00 MB, 0 files (1ms)
+[2026-05-16T02:48:56.159Z] [DEBUG]   SKIP  Memory Dump (MEMORY.DMP): File not found
+[2026-05-16T02:48:56.159Z] [INFO]   WARN  CBS Logs: 802.30 MB, 3 files (30ms)
+[2026-05-16T02:48:56.159Z] [WARN]          ↳ C:\Windows\Logs\CBS\CBS.log: EBUSY: resource busy or locked, unlink 'C:\Windows\Logs\CBS\CBS.log'
+[2026-05-16T02:48:56.159Z] [INFO]   WARN  Recycle Bin: 0.00 MB, 0 files (2043ms)
+[2026-05-16T02:48:56.159Z] [WARN]          ↳ Command failed: powershell.exe -NoProfile -Command "Clear-RecycleBin -Force -ErrorAction SilentlyContinue"
+[2026-05-16T02:48:56.160Z] [INFO]   OK    DNS Cache: 0.00 MB, 0 files (34ms)
+[2026-05-16T02:48:56.160Z] [INFO]   OK    ARP Cache: 0.00 MB, 0 files (35ms)
+[2026-05-16T02:48:56.160Z] [INFO]   OK    NetBIOS Cache: 0.00 MB, 0 files (34ms)
+[2026-05-16T02:48:56.160Z] [INFO]   OK    Winsock Catalog: 0.00 MB, 0 files (157ms)
+[2026-05-16T02:48:56.160Z] [INFO] Cleanup done — 1682.88 MB freed.
+[2026-05-16T02:48:56.161Z] [INFO] Startup cleanup complete. Service is now idle.
+[2026-05-16T02:50:28.642Z] [INFO] PC Cleanup Service started — running startup cleanup...
+[2026-05-16T02:50:28.645Z] [INFO] Cleanup triggered by: startup
+[2026-05-16T02:50:28.650Z] [INFO] === Cleanup started ===
+[2026-05-16T02:50:32.486Z] [INFO] === Cleanup complete in 3.8s ===
+[2026-05-16T02:50:32.486Z] [INFO] Total freed: 10.54 MB across 2 files
+[2026-05-16T02:50:32.487Z] [INFO]   OK    %TEMP%: 0.00 MB, 1 files (1ms)
+[2026-05-16T02:50:32.487Z] [INFO]   OK    %LOCALAPPDATA%\Temp: 0.00 MB, 0 files (1ms)
+[2026-05-16T02:50:32.487Z] [INFO]   OK    C:\Windows\Temp: 0.00 MB, 0 files (0ms)
+[2026-05-16T02:50:32.487Z] [INFO]   OK    %LOCALAPPDATA%\Microsoft\Windows\INetCache: 0.00 MB, 1 files (0ms)
+[2026-05-16T02:50:32.488Z] [INFO]   OK    %LOCALAPPDATA%\Microsoft\Windows\INetCookies: 0.00 MB, 0 files (0ms)
+[2026-05-16T02:50:32.488Z] [INFO]   WARN  Windows Update Cache: 0.02 MB, 0 files (4ms)
+[2026-05-16T02:50:32.488Z] [WARN]          ↳ C:\Windows\SoftwareDistribution\Download\394234bd452e9830064d4e75da6d221f\Metadata\Windows11.0-KB5089549-x64\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.26100.8328_none_87eede957a2ccddd.manifest: EPERM: operation not permitted, unlink 'C:\Windows\SoftwareDistribution\Download\394234bd452e9830064d4e75da6d221f\Metadata\Windows11.0-KB5089549-x64\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.26100.8328_none_87eede957a2ccddd.manifest'
+[2026-05-16T02:50:32.488Z] [WARN]          ↳ C:\Windows\SoftwareDistribution\Download\394234bd452e9830064d4e75da6d221f\Metadata\Windows11.0-KB5089549-x64\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.8457_none_3e0b2faee331e92d.manifest: EPERM: operation not permitted, unlink 'C:\Windows\SoftwareDistribution\Download\394234bd452e9830064d4e75da6d221f\Metadata\Windows11.0-KB5089549-x64\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.8457_none_3e0b2faee331e92d.manifest'
+[2026-05-16T02:50:32.489Z] [WARN]          ↳ C:\Windows\SoftwareDistribution\Download\394234bd452e9830064d4e75da6d221f\Metadata\Windows11.0-KB5089549-x64\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.0.26100.8328_none_7fa19c2da4c1569f.manifest: EPERM: operation not permitted, unlink 'C:\Windows\SoftwareDistribution\Download\394234bd452e9830064d4e75da6d221f\Metadata\Windows11.0-KB5089549-x64\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.0.26100.8328_none_7fa19c2da4c1569f.manifest'
+[2026-05-16T02:50:32.489Z] [WARN]          ↳ ...and 5 more errors
+[2026-05-16T02:50:32.489Z] [INFO]   OK    WER: C:\ProgramData\Microsoft\Windows\WER\ReportArchive: 0.00 MB, 0 files (0ms)
+[2026-05-16T02:50:32.489Z] [INFO]   OK    WER: C:\ProgramData\Microsoft\Windows\WER\ReportQueue: 0.00 MB, 0 files (0ms)
+[2026-05-16T02:50:32.490Z] [DEBUG]   SKIP  Thumbnail/Icon Cache: Path not found
+[2026-05-16T02:50:32.490Z] [INFO]   OK    Crash Dumps: C:\Windows\LiveKernelReports: 0.00 MB, 0 files (0ms)
+[2026-05-16T02:50:32.490Z] [INFO]   OK    Crash Dumps: %LOCALAPPDATA%\CrashDumps: 0.00 MB, 0 files (0ms)
+[2026-05-16T02:50:32.490Z] [DEBUG]   SKIP  Memory Dump (MEMORY.DMP): File not found
+[2026-05-16T02:50:32.490Z] [INFO]   WARN  CBS Logs: 10.52 MB, 0 files (0ms)
+[2026-05-16T02:50:32.491Z] [WARN]          ↳ C:\Windows\Logs\CBS\CBS.log: EBUSY: resource busy or locked, unlink 'C:\Windows\Logs\CBS\CBS.log'
+[2026-05-16T02:50:32.491Z] [INFO]   WARN  Recycle Bin: 0.00 MB, 0 files (1582ms)
+[2026-05-16T02:50:32.491Z] [WARN]          ↳ Command failed: powershell.exe -NoProfile -Command "Clear-RecycleBin -Force -ErrorAction SilentlyContinue"
+[2026-05-16T02:50:32.491Z] [INFO]   OK    DNS Cache: 0.00 MB, 0 files (29ms)
+[2026-05-16T02:50:32.492Z] [INFO]   OK    ARP Cache: 0.00 MB, 0 files (2011ms)
+[2026-05-16T02:50:32.492Z] [INFO]   OK    NetBIOS Cache: 0.00 MB, 0 files (36ms)
+[2026-05-16T02:50:32.492Z] [INFO]   OK    Winsock Catalog: 0.00 MB, 0 files (168ms)
+[2026-05-16T02:50:32.492Z] [INFO] Cleanup done — 10.54 MB freed.
+[2026-05-16T02:50:32.492Z] [INFO] Startup cleanup complete. Service is now idle.
+[2026-05-16T02:51:29.491Z] [INFO] PC Cleanup Service started — running startup cleanup...
+[2026-05-16T02:51:29.494Z] [INFO] Cleanup triggered by: startup
+[2026-05-16T02:51:29.499Z] [INFO] === Cleanup started ===
+[2026-05-16T02:51:33.096Z] [INFO] === Cleanup complete in 3.6s ===
+[2026-05-16T02:51:33.096Z] [INFO] Total freed: 10.56 MB across 2 files
+[2026-05-16T02:51:33.096Z] [INFO]   OK    %TEMP%: 0.00 MB, 1 files (1ms)
+[2026-05-16T02:51:33.097Z] [INFO]   OK    %LOCALAPPDATA%\Temp: 0.00 MB, 0 files (0ms)
+[2026-05-16T02:51:33.097Z] [INFO]   OK    C:\Windows\Temp: 0.00 MB, 0 files (0ms)
+[2026-05-16T02:51:33.097Z] [INFO]   OK    %LOCALAPPDATA%\Microsoft\Windows\INetCache: 0.00 MB, 1 files (0ms)
+[2026-05-16T02:51:33.098Z] [INFO]   OK    %LOCALAPPDATA%\Microsoft\Windows\INetCookies: 0.00 MB, 0 files (0ms)
+[2026-05-16T02:51:33.098Z] [INFO]   WARN  Windows Update Cache: 0.02 MB, 0 files (4ms)
+[2026-05-16T02:51:33.098Z] [WARN]          ↳ C:\Windows\SoftwareDistribution\Download\394234bd452e9830064d4e75da6d221f\Metadata\Windows11.0-KB5089549-x64\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.26100.8328_none_87eede957a2ccddd.manifest: EPERM: operation not permitted, unlink 'C:\Windows\SoftwareDistribution\Download\394234bd452e9830064d4e75da6d221f\Metadata\Windows11.0-KB5089549-x64\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.26100.8328_none_87eede957a2ccddd.manifest'
+[2026-05-16T02:51:33.098Z] [WARN]          ↳ C:\Windows\SoftwareDistribution\Download\394234bd452e9830064d4e75da6d221f\Metadata\Windows11.0-KB5089549-x64\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.8457_none_3e0b2faee331e92d.manifest: EPERM: operation not permitted, unlink 'C:\Windows\SoftwareDistribution\Download\394234bd452e9830064d4e75da6d221f\Metadata\Windows11.0-KB5089549-x64\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.8457_none_3e0b2faee331e92d.manifest'
+[2026-05-16T02:51:33.099Z] [WARN]          ↳ C:\Windows\SoftwareDistribution\Download\394234bd452e9830064d4e75da6d221f\Metadata\Windows11.0-KB5089549-x64\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.0.26100.8328_none_7fa19c2da4c1569f.manifest: EPERM: operation not permitted, unlink 'C:\Windows\SoftwareDistribution\Download\394234bd452e9830064d4e75da6d221f\Metadata\Windows11.0-KB5089549-x64\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.0.26100.8328_none_7fa19c2da4c1569f.manifest'
+[2026-05-16T02:51:33.099Z] [WARN]          ↳ ...and 5 more errors
+[2026-05-16T02:51:33.099Z] [INFO]   OK    WER: C:\ProgramData\Microsoft\Windows\WER\ReportArchive: 0.00 MB, 0 files (0ms)
+[2026-05-16T02:51:33.099Z] [INFO]   OK    WER: C:\ProgramData\Microsoft\Windows\WER\ReportQueue: 0.00 MB, 0 files (0ms)
+[2026-05-16T02:51:33.100Z] [DEBUG]   SKIP  Thumbnail/Icon Cache: Path not found
+[2026-05-16T02:51:33.100Z] [INFO]   OK    Crash Dumps: C:\Windows\LiveKernelReports: 0.00 MB, 0 files (0ms)
+[2026-05-16T02:51:33.100Z] [INFO]   OK    Crash Dumps: %LOCALAPPDATA%\CrashDumps: 0.00 MB, 0 files (0ms)
+[2026-05-16T02:51:33.100Z] [DEBUG]   SKIP  Memory Dump (MEMORY.DMP): File not found
+[2026-05-16T02:51:33.100Z] [INFO]   WARN  CBS Logs: 10.54 MB, 0 files (0ms)
+[2026-05-16T02:51:33.101Z] [WARN]          ↳ C:\Windows\Logs\CBS\CBS.log: EBUSY: resource busy or locked, unlink 'C:\Windows\Logs\CBS\CBS.log'
+[2026-05-16T02:51:33.101Z] [INFO]   WARN  Recycle Bin: 0.00 MB, 0 files (1105ms)
+[2026-05-16T02:51:33.101Z] [WARN]          ↳ Command failed: powershell.exe -NoProfile -Command "Clear-RecycleBin -Force -ErrorAction SilentlyContinue"
+[2026-05-16T02:51:33.102Z] [INFO]   OK    DNS Cache: 0.00 MB, 0 files (28ms)
+[2026-05-16T02:51:33.102Z] [INFO]   OK    ARP Cache: 0.00 MB, 0 files (2250ms)
+[2026-05-16T02:51:33.102Z] [INFO]   OK    NetBIOS Cache: 0.00 MB, 0 files (35ms)
+[2026-05-16T02:51:33.102Z] [INFO]   OK    Winsock Catalog: 0.00 MB, 0 files (170ms)
+[2026-05-16T02:51:33.103Z] [INFO] Cleanup done — 10.56 MB freed.
+[2026-05-16T02:51:33.103Z] [INFO] Startup cleanup complete. Service is now idle.

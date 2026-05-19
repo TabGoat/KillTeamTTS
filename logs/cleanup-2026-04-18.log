@@ -1,0 +1,140 @@
+[2026-04-18T00:54:15.018Z] [INFO] PC Cleanup Service started — running startup cleanup...
+[2026-04-18T00:54:15.021Z] [INFO] Cleanup triggered by: startup
+[2026-04-18T00:54:15.025Z] [INFO] === Cleanup started ===
+[2026-04-18T00:54:30.258Z] [INFO] === Cleanup complete in 15.2s ===
+[2026-04-18T00:54:30.258Z] [INFO] Total freed: 1433.30 MB across 23527 files
+[2026-04-18T00:54:30.258Z] [INFO]   OK    %TEMP%: 0.03 MB, 7 files (4ms)
+[2026-04-18T00:54:30.259Z] [INFO]   OK    %LOCALAPPDATA%\Temp: 0.00 MB, 0 files (0ms)
+[2026-04-18T00:54:30.259Z] [INFO]   OK    C:\Windows\Temp: 0.00 MB, 0 files (1ms)
+[2026-04-18T00:54:30.259Z] [INFO]   OK    %LOCALAPPDATA%\Microsoft\Windows\INetCache: 0.00 MB, 1 files (1ms)
+[2026-04-18T00:54:30.260Z] [INFO]   OK    %LOCALAPPDATA%\Microsoft\Windows\INetCookies: 0.00 MB, 0 files (0ms)
+[2026-04-18T00:54:30.260Z] [INFO]   WARN  Windows Update Cache: 872.84 MB, 23515 files (12136ms)
+[2026-04-18T00:54:30.260Z] [WARN]          ↳ C:\Windows\SoftwareDistribution\Download\99e566d831b6bd4d8168c203080993ba\Metadata\Windows11.0-KB5083769-x64\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.26100.8117_af-za_09d9b7e0e171908f.manifest: EPERM: operation not permitted, unlink 'C:\Windows\SoftwareDistribution\Download\99e566d831b6bd4d8168c203080993ba\Metadata\Windows11.0-KB5083769-x64\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.26100.8117_af-za_09d9b7e0e171908f.manifest'
+[2026-04-18T00:54:30.260Z] [WARN]          ↳ C:\Windows\SoftwareDistribution\Download\99e566d831b6bd4d8168c203080993ba\Metadata\Windows11.0-KB5083769-x64\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.26100.8117_am-et_11fcef3edc3d8ff6.manifest: EPERM: operation not permitted, unlink 'C:\Windows\SoftwareDistribution\Download\99e566d831b6bd4d8168c203080993ba\Metadata\Windows11.0-KB5083769-x64\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.26100.8117_am-et_11fcef3edc3d8ff6.manifest'
+[2026-04-18T00:54:30.260Z] [WARN]          ↳ C:\Windows\SoftwareDistribution\Download\99e566d831b6bd4d8168c203080993ba\Metadata\Windows11.0-KB5083769-x64\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.26100.8117_ar-sa_09589848e1d22c74.manifest: EPERM: operation not permitted, unlink 'C:\Windows\SoftwareDistribution\Download\99e566d831b6bd4d8168c203080993ba\Metadata\Windows11.0-KB5083769-x64\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.26100.8117_ar-sa_09589848e1d22c74.manifest'
+[2026-04-18T00:54:30.261Z] [WARN]          ↳ ...and 365 more errors
+[2026-04-18T00:54:30.261Z] [INFO]   OK    WER: C:\ProgramData\Microsoft\Windows\WER\ReportArchive: 0.02 MB, 1 files (0ms)
+[2026-04-18T00:54:30.261Z] [INFO]   OK    WER: C:\ProgramData\Microsoft\Windows\WER\ReportQueue: 0.00 MB, 0 files (0ms)
+[2026-04-18T00:54:30.261Z] [DEBUG]   SKIP  Thumbnail/Icon Cache: Path not found
+[2026-04-18T00:54:30.261Z] [INFO]   OK    Crash Dumps: C:\Windows\LiveKernelReports: 0.00 MB, 0 files (0ms)
+[2026-04-18T00:54:30.262Z] [DEBUG]   SKIP  Memory Dump (MEMORY.DMP): File not found
+[2026-04-18T00:54:30.262Z] [INFO]   WARN  CBS Logs: 560.40 MB, 3 files (18ms)
+[2026-04-18T00:54:30.262Z] [WARN]          ↳ C:\Windows\Logs\CBS\CBS.log: EBUSY: resource busy or locked, unlink 'C:\Windows\Logs\CBS\CBS.log'
+[2026-04-18T00:54:30.262Z] [INFO]   WARN  Recycle Bin: 0.00 MB, 0 files (2822ms)
+[2026-04-18T00:54:30.262Z] [WARN]          ↳ Command failed: powershell.exe -NoProfile -Command "Clear-RecycleBin -Force -ErrorAction SilentlyContinue"
+[2026-04-18T00:54:30.263Z] [INFO]   OK    DNS Cache: 0.00 MB, 0 files (32ms)
+[2026-04-18T00:54:30.263Z] [INFO]   OK    ARP Cache: 0.00 MB, 0 files (36ms)
+[2026-04-18T00:54:30.263Z] [INFO]   OK    NetBIOS Cache: 0.00 MB, 0 files (33ms)
+[2026-04-18T00:54:30.263Z] [INFO]   OK    Winsock Catalog: 0.00 MB, 0 files (146ms)
+[2026-04-18T00:54:30.263Z] [INFO] Cleanup done — 1433.30 MB freed.
+[2026-04-18T00:54:30.264Z] [INFO] Startup cleanup complete. Service is now idle.
+[2026-04-18T00:55:45.928Z] [INFO] PC Cleanup Service started — running startup cleanup...
+[2026-04-18T00:55:45.936Z] [INFO] Cleanup triggered by: startup
+[2026-04-18T00:55:45.941Z] [INFO] === Cleanup started ===
+[2026-04-18T00:55:50.372Z] [INFO] === Cleanup complete in 4.4s ===
+[2026-04-18T00:55:50.372Z] [INFO] Total freed: 9.21 MB across 1 files
+[2026-04-18T00:55:50.373Z] [INFO]   OK    %TEMP%: 0.00 MB, 1 files (1ms)
+[2026-04-18T00:55:50.373Z] [INFO]   OK    %LOCALAPPDATA%\Temp: 0.00 MB, 0 files (0ms)
+[2026-04-18T00:55:50.373Z] [INFO]   OK    C:\Windows\Temp: 0.00 MB, 0 files (0ms)
+[2026-04-18T00:55:50.373Z] [INFO]   OK    %LOCALAPPDATA%\Microsoft\Windows\INetCache: 0.00 MB, 0 files (0ms)
+[2026-04-18T00:55:50.374Z] [INFO]   OK    %LOCALAPPDATA%\Microsoft\Windows\INetCookies: 0.00 MB, 0 files (0ms)
+[2026-04-18T00:55:50.374Z] [INFO]   WARN  Windows Update Cache: 0.58 MB, 0 files (102ms)
+[2026-04-18T00:55:50.374Z] [WARN]          ↳ C:\Windows\SoftwareDistribution\Download\99e566d831b6bd4d8168c203080993ba\Metadata\Windows11.0-KB5083769-x64\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.26100.8117_af-za_09d9b7e0e171908f.manifest: EPERM: operation not permitted, unlink 'C:\Windows\SoftwareDistribution\Download\99e566d831b6bd4d8168c203080993ba\Metadata\Windows11.0-KB5083769-x64\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.26100.8117_af-za_09d9b7e0e171908f.manifest'
+[2026-04-18T00:55:50.374Z] [WARN]          ↳ C:\Windows\SoftwareDistribution\Download\99e566d831b6bd4d8168c203080993ba\Metadata\Windows11.0-KB5083769-x64\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.26100.8117_am-et_11fcef3edc3d8ff6.manifest: EPERM: operation not permitted, unlink 'C:\Windows\SoftwareDistribution\Download\99e566d831b6bd4d8168c203080993ba\Metadata\Windows11.0-KB5083769-x64\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.26100.8117_am-et_11fcef3edc3d8ff6.manifest'
+[2026-04-18T00:55:50.374Z] [WARN]          ↳ C:\Windows\SoftwareDistribution\Download\99e566d831b6bd4d8168c203080993ba\Metadata\Windows11.0-KB5083769-x64\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.26100.8117_ar-sa_09589848e1d22c74.manifest: EPERM: operation not permitted, unlink 'C:\Windows\SoftwareDistribution\Download\99e566d831b6bd4d8168c203080993ba\Metadata\Windows11.0-KB5083769-x64\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.26100.8117_ar-sa_09589848e1d22c74.manifest'
+[2026-04-18T00:55:50.375Z] [WARN]          ↳ ...and 365 more errors
+[2026-04-18T00:55:50.375Z] [INFO]   OK    WER: C:\ProgramData\Microsoft\Windows\WER\ReportArchive: 0.00 MB, 0 files (0ms)
+[2026-04-18T00:55:50.375Z] [INFO]   OK    WER: C:\ProgramData\Microsoft\Windows\WER\ReportQueue: 0.00 MB, 0 files (0ms)
+[2026-04-18T00:55:50.375Z] [DEBUG]   SKIP  Thumbnail/Icon Cache: Path not found
+[2026-04-18T00:55:50.376Z] [INFO]   OK    Crash Dumps: C:\Windows\LiveKernelReports: 0.00 MB, 0 files (0ms)
+[2026-04-18T00:55:50.376Z] [DEBUG]   SKIP  Memory Dump (MEMORY.DMP): File not found
+[2026-04-18T00:55:50.376Z] [INFO]   WARN  CBS Logs: 8.63 MB, 0 files (0ms)
+[2026-04-18T00:55:50.376Z] [WARN]          ↳ C:\Windows\Logs\CBS\CBS.log: EBUSY: resource busy or locked, unlink 'C:\Windows\Logs\CBS\CBS.log'
+[2026-04-18T00:55:50.376Z] [INFO]   WARN  Recycle Bin: 0.00 MB, 0 files (1633ms)
+[2026-04-18T00:55:50.377Z] [WARN]          ↳ Command failed: powershell.exe -NoProfile -Command "Clear-RecycleBin -Force -ErrorAction SilentlyContinue"
+[2026-04-18T00:55:50.377Z] [INFO]   OK    DNS Cache: 0.00 MB, 0 files (26ms)
+[2026-04-18T00:55:50.377Z] [INFO]   OK    ARP Cache: 0.00 MB, 0 files (2457ms)
+[2026-04-18T00:55:50.377Z] [INFO]   OK    NetBIOS Cache: 0.00 MB, 0 files (32ms)
+[2026-04-18T00:55:50.377Z] [INFO]   OK    Winsock Catalog: 0.00 MB, 0 files (177ms)
+[2026-04-18T00:55:50.378Z] [INFO] Cleanup done — 9.21 MB freed.
+[2026-04-18T00:55:50.378Z] [INFO] Startup cleanup complete. Service is now idle.
+[2026-04-18T00:56:38.654Z] [INFO] PC Cleanup Service started — running startup cleanup...
+[2026-04-18T00:56:38.662Z] [INFO] Cleanup triggered by: startup
+[2026-04-18T00:56:38.666Z] [INFO] === Cleanup started ===
+[2026-04-18T00:56:42.311Z] [INFO] === Cleanup complete in 3.6s ===
+[2026-04-18T00:56:42.311Z] [INFO] Total freed: 9.22 MB across 2 files
+[2026-04-18T00:56:42.311Z] [INFO]   OK    %TEMP%: 0.00 MB, 1 files (1ms)
+[2026-04-18T00:56:42.312Z] [INFO]   OK    %LOCALAPPDATA%\Temp: 0.00 MB, 0 files (0ms)
+[2026-04-18T00:56:42.312Z] [INFO]   OK    C:\Windows\Temp: 0.00 MB, 0 files (0ms)
+[2026-04-18T00:56:42.312Z] [INFO]   OK    %LOCALAPPDATA%\Microsoft\Windows\INetCache: 0.00 MB, 1 files (0ms)
+[2026-04-18T00:56:42.312Z] [INFO]   OK    %LOCALAPPDATA%\Microsoft\Windows\INetCookies: 0.00 MB, 0 files (0ms)
+[2026-04-18T00:56:42.313Z] [INFO]   WARN  Windows Update Cache: 0.58 MB, 0 files (99ms)
+[2026-04-18T00:56:42.313Z] [WARN]          ↳ C:\Windows\SoftwareDistribution\Download\99e566d831b6bd4d8168c203080993ba\Metadata\Windows11.0-KB5083769-x64\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.26100.8117_af-za_09d9b7e0e171908f.manifest: EPERM: operation not permitted, unlink 'C:\Windows\SoftwareDistribution\Download\99e566d831b6bd4d8168c203080993ba\Metadata\Windows11.0-KB5083769-x64\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.26100.8117_af-za_09d9b7e0e171908f.manifest'
+[2026-04-18T00:56:42.313Z] [WARN]          ↳ C:\Windows\SoftwareDistribution\Download\99e566d831b6bd4d8168c203080993ba\Metadata\Windows11.0-KB5083769-x64\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.26100.8117_am-et_11fcef3edc3d8ff6.manifest: EPERM: operation not permitted, unlink 'C:\Windows\SoftwareDistribution\Download\99e566d831b6bd4d8168c203080993ba\Metadata\Windows11.0-KB5083769-x64\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.26100.8117_am-et_11fcef3edc3d8ff6.manifest'
+[2026-04-18T00:56:42.313Z] [WARN]          ↳ C:\Windows\SoftwareDistribution\Download\99e566d831b6bd4d8168c203080993ba\Metadata\Windows11.0-KB5083769-x64\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.26100.8117_ar-sa_09589848e1d22c74.manifest: EPERM: operation not permitted, unlink 'C:\Windows\SoftwareDistribution\Download\99e566d831b6bd4d8168c203080993ba\Metadata\Windows11.0-KB5083769-x64\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.26100.8117_ar-sa_09589848e1d22c74.manifest'
+[2026-04-18T00:56:42.313Z] [WARN]          ↳ ...and 365 more errors
+[2026-04-18T00:56:42.314Z] [INFO]   OK    WER: C:\ProgramData\Microsoft\Windows\WER\ReportArchive: 0.00 MB, 0 files (0ms)
+[2026-04-18T00:56:42.314Z] [INFO]   OK    WER: C:\ProgramData\Microsoft\Windows\WER\ReportQueue: 0.00 MB, 0 files (0ms)
+[2026-04-18T00:56:42.314Z] [DEBUG]   SKIP  Thumbnail/Icon Cache: Path not found
+[2026-04-18T00:56:42.314Z] [INFO]   OK    Crash Dumps: C:\Windows\LiveKernelReports: 0.00 MB, 0 files (0ms)
+[2026-04-18T00:56:42.314Z] [DEBUG]   SKIP  Memory Dump (MEMORY.DMP): File not found
+[2026-04-18T00:56:42.315Z] [INFO]   WARN  CBS Logs: 8.65 MB, 0 files (0ms)
+[2026-04-18T00:56:42.315Z] [WARN]          ↳ C:\Windows\Logs\CBS\CBS.log: EBUSY: resource busy or locked, unlink 'C:\Windows\Logs\CBS\CBS.log'
+[2026-04-18T00:56:42.315Z] [INFO]   WARN  Recycle Bin: 0.00 MB, 0 files (1131ms)
+[2026-04-18T00:56:42.315Z] [WARN]          ↳ Command failed: powershell.exe -NoProfile -Command "Clear-RecycleBin -Force -ErrorAction SilentlyContinue"
+[2026-04-18T00:56:42.315Z] [INFO]   OK    DNS Cache: 0.00 MB, 0 files (27ms)
+[2026-04-18T00:56:42.316Z] [INFO]   OK    ARP Cache: 0.00 MB, 0 files (2186ms)
+[2026-04-18T00:56:42.316Z] [INFO]   OK    NetBIOS Cache: 0.00 MB, 0 files (35ms)
+[2026-04-18T00:56:42.316Z] [INFO]   OK    Winsock Catalog: 0.00 MB, 0 files (162ms)
+[2026-04-18T00:56:42.316Z] [INFO] Cleanup done — 9.22 MB freed.
+[2026-04-18T00:56:42.316Z] [INFO] Startup cleanup complete. Service is now idle.
+[2026-04-18T01:07:28.880Z] [INFO] PC Cleanup Service started — running startup cleanup...
+[2026-04-18T01:07:28.888Z] [INFO] Cleanup triggered by: startup
+[2026-04-18T01:07:28.893Z] [INFO] === Cleanup started ===
+[2026-04-18T01:07:30.901Z] [INFO] === Cleanup complete in 2.0s ===
+[2026-04-18T01:07:30.902Z] [INFO] Total freed: 23.55 MB across 7 files
+[2026-04-18T01:07:30.902Z] [INFO]   OK    %TEMP%: 0.00 MB, 2 files (2ms)
+[2026-04-18T01:07:30.902Z] [INFO]   OK    %LOCALAPPDATA%\Temp: 14.83 MB, 3 files (5ms)
+[2026-04-18T01:07:30.903Z] [INFO]   OK    C:\Windows\Temp: 0.00 MB, 0 files (0ms)
+[2026-04-18T01:07:30.903Z] [INFO]   OK    %LOCALAPPDATA%\Microsoft\Windows\INetCache: 0.00 MB, 1 files (1ms)
+[2026-04-18T01:07:30.903Z] [INFO]   OK    %LOCALAPPDATA%\Microsoft\Windows\INetCookies: 0.00 MB, 0 files (1ms)
+[2026-04-18T01:07:30.903Z] [INFO]   OK    Windows Update Cache: 0.00 MB, 0 files (0ms)
+[2026-04-18T01:07:30.903Z] [INFO]   OK    WER: C:\ProgramData\Microsoft\Windows\WER\ReportArchive: 0.00 MB, 0 files (0ms)
+[2026-04-18T01:07:30.904Z] [INFO]   OK    WER: C:\ProgramData\Microsoft\Windows\WER\ReportQueue: 0.00 MB, 0 files (0ms)
+[2026-04-18T01:07:30.904Z] [DEBUG]   SKIP  Thumbnail/Icon Cache: Path not found
+[2026-04-18T01:07:30.904Z] [INFO]   OK    Crash Dumps: C:\Windows\LiveKernelReports: 0.00 MB, 0 files (0ms)
+[2026-04-18T01:07:30.904Z] [DEBUG]   SKIP  Memory Dump (MEMORY.DMP): File not found
+[2026-04-18T01:07:30.904Z] [INFO]   OK    CBS Logs: 8.71 MB, 1 files (2ms)
+[2026-04-18T01:07:30.905Z] [INFO]   WARN  Recycle Bin: 0.00 MB, 0 files (1648ms)
+[2026-04-18T01:07:30.905Z] [WARN]          ↳ Command failed: powershell.exe -NoProfile -Command "Clear-RecycleBin -Force -ErrorAction SilentlyContinue"
+[2026-04-18T01:07:30.905Z] [INFO]   OK    DNS Cache: 0.00 MB, 0 files (36ms)
+[2026-04-18T01:07:30.905Z] [INFO]   OK    ARP Cache: 0.00 MB, 0 files (35ms)
+[2026-04-18T01:07:30.905Z] [INFO]   OK    NetBIOS Cache: 0.00 MB, 0 files (33ms)
+[2026-04-18T01:07:30.906Z] [INFO]   OK    Winsock Catalog: 0.00 MB, 0 files (242ms)
+[2026-04-18T01:07:30.906Z] [INFO] Cleanup done — 23.55 MB freed.
+[2026-04-18T01:07:30.906Z] [INFO] Startup cleanup complete. Service is now idle.
+[2026-04-18T15:11:44.899Z] [INFO] PC Cleanup Service started — running startup cleanup...
+[2026-04-18T15:11:44.902Z] [INFO] Cleanup triggered by: startup
+[2026-04-18T15:11:44.906Z] [INFO] === Cleanup started ===
+[2026-04-18T15:11:48.967Z] [INFO] === Cleanup complete in 4.1s ===
+[2026-04-18T15:11:48.967Z] [INFO] Total freed: 3.18 MB across 9 files
+[2026-04-18T15:11:48.967Z] [INFO]   OK    %TEMP%: 0.02 MB, 6 files (4ms)
+[2026-04-18T15:11:48.968Z] [INFO]   OK    %LOCALAPPDATA%\Temp: 0.00 MB, 0 files (1ms)
+[2026-04-18T15:11:48.968Z] [INFO]   OK    C:\Windows\Temp: 0.00 MB, 0 files (0ms)
+[2026-04-18T15:11:48.968Z] [INFO]   OK    %LOCALAPPDATA%\Microsoft\Windows\INetCache: 0.00 MB, 1 files (0ms)
+[2026-04-18T15:11:48.968Z] [INFO]   OK    %LOCALAPPDATA%\Microsoft\Windows\INetCookies: 0.00 MB, 0 files (0ms)
+[2026-04-18T15:11:48.969Z] [INFO]   OK    Windows Update Cache: 0.44 MB, 1 files (1ms)
+[2026-04-18T15:11:48.969Z] [INFO]   OK    WER: C:\ProgramData\Microsoft\Windows\WER\ReportArchive: 0.00 MB, 0 files (0ms)
+[2026-04-18T15:11:48.969Z] [INFO]   OK    WER: C:\ProgramData\Microsoft\Windows\WER\ReportQueue: 0.00 MB, 0 files (0ms)
+[2026-04-18T15:11:48.969Z] [DEBUG]   SKIP  Thumbnail/Icon Cache: Path not found
+[2026-04-18T15:11:48.969Z] [INFO]   OK    Crash Dumps: C:\Windows\LiveKernelReports: 0.00 MB, 0 files (0ms)
+[2026-04-18T15:11:48.970Z] [DEBUG]   SKIP  Memory Dump (MEMORY.DMP): File not found
+[2026-04-18T15:11:48.970Z] [INFO]   OK    CBS Logs: 2.72 MB, 1 files (0ms)
+[2026-04-18T15:11:48.970Z] [INFO]   WARN  Recycle Bin: 0.00 MB, 0 files (1065ms)
+[2026-04-18T15:11:48.970Z] [WARN]          ↳ Command failed: powershell.exe -NoProfile -Command "Clear-RecycleBin -Force -ErrorAction SilentlyContinue"
+[2026-04-18T15:11:48.970Z] [INFO]   OK    DNS Cache: 0.00 MB, 0 files (26ms)
+[2026-04-18T15:11:48.971Z] [INFO]   OK    ARP Cache: 0.00 MB, 0 files (2775ms)
+[2026-04-18T15:11:48.971Z] [INFO]   OK    NetBIOS Cache: 0.00 MB, 0 files (33ms)
+[2026-04-18T15:11:48.971Z] [INFO]   OK    Winsock Catalog: 0.00 MB, 0 files (153ms)
+[2026-04-18T15:11:48.971Z] [INFO] Cleanup done — 3.18 MB freed.
+[2026-04-18T15:11:48.971Z] [INFO] Startup cleanup complete. Service is now idle.

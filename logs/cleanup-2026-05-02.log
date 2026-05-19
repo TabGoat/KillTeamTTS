@@ -1,0 +1,28 @@
+[2026-05-02T00:30:53.840Z] [INFO] PC Cleanup Service started — running startup cleanup...
+[2026-05-02T00:30:53.843Z] [INFO] Cleanup triggered by: startup
+[2026-05-02T00:30:53.848Z] [INFO] === Cleanup started ===
+[2026-05-02T00:30:54.754Z] [INFO] === Cleanup complete in 0.9s ===
+[2026-05-02T00:30:54.755Z] [INFO] Total freed: 0.03 MB across 3 files
+[2026-05-02T00:30:54.755Z] [INFO]   WARN  %TEMP%: 0.00 MB, 1 files (1ms)
+[2026-05-02T00:30:54.755Z] [WARN]          ↳ C:\WINDOWS\TEMP\5tdA7EKUosm8OaEX: EPERM: operation not permitted, unlink 'C:\WINDOWS\TEMP\5tdA7EKUosm8OaEX'
+[2026-05-02T00:30:54.756Z] [INFO]   OK    %LOCALAPPDATA%\Temp: 0.00 MB, 0 files (0ms)
+[2026-05-02T00:30:54.756Z] [INFO]   WARN  C:\Windows\Temp: 0.00 MB, 0 files (0ms)
+[2026-05-02T00:30:54.756Z] [WARN]          ↳ C:\Windows\Temp\5tdA7EKUosm8OaEX: EPERM: operation not permitted, unlink 'C:\Windows\Temp\5tdA7EKUosm8OaEX'
+[2026-05-02T00:30:54.757Z] [INFO]   OK    %LOCALAPPDATA%\Microsoft\Windows\INetCache: 0.00 MB, 1 files (0ms)
+[2026-05-02T00:30:54.757Z] [INFO]   OK    %LOCALAPPDATA%\Microsoft\Windows\INetCookies: 0.00 MB, 0 files (0ms)
+[2026-05-02T00:30:54.757Z] [INFO]   OK    Windows Update Cache: 0.00 MB, 0 files (0ms)
+[2026-05-02T00:30:54.757Z] [INFO]   OK    WER: C:\ProgramData\Microsoft\Windows\WER\ReportArchive: 0.03 MB, 1 files (1ms)
+[2026-05-02T00:30:54.758Z] [INFO]   OK    WER: C:\ProgramData\Microsoft\Windows\WER\ReportQueue: 0.00 MB, 0 files (0ms)
+[2026-05-02T00:30:54.758Z] [DEBUG]   SKIP  Thumbnail/Icon Cache: Path not found
+[2026-05-02T00:30:54.758Z] [INFO]   OK    Crash Dumps: C:\Windows\LiveKernelReports: 0.00 MB, 0 files (1ms)
+[2026-05-02T00:30:54.758Z] [INFO]   OK    Crash Dumps: %LOCALAPPDATA%\CrashDumps: 0.00 MB, 0 files (0ms)
+[2026-05-02T00:30:54.759Z] [DEBUG]   SKIP  Memory Dump (MEMORY.DMP): File not found
+[2026-05-02T00:30:54.759Z] [INFO]   OK    CBS Logs: 0.00 MB, 0 files (0ms)
+[2026-05-02T00:30:54.759Z] [INFO]   WARN  Recycle Bin: 0.00 MB, 0 files (610ms)
+[2026-05-02T00:30:54.759Z] [WARN]          ↳ Command failed: powershell.exe -NoProfile -Command "Clear-RecycleBin -Force -ErrorAction SilentlyContinue"
+[2026-05-02T00:30:54.759Z] [INFO]   OK    DNS Cache: 0.00 MB, 0 files (27ms)
+[2026-05-02T00:30:54.760Z] [INFO]   OK    ARP Cache: 0.00 MB, 0 files (30ms)
+[2026-05-02T00:30:54.760Z] [INFO]   OK    NetBIOS Cache: 0.00 MB, 0 files (32ms)
+[2026-05-02T00:30:54.760Z] [INFO]   OK    Winsock Catalog: 0.00 MB, 0 files (202ms)
+[2026-05-02T00:30:54.760Z] [INFO] Cleanup done — 0.03 MB freed.
+[2026-05-02T00:30:54.760Z] [INFO] Startup cleanup complete. Service is now idle.

@@ -1,0 +1,13 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "type": "command",
+        "windows": "node .github/hooks/pretool-phase-guard.js",
+        "linux": "node .github/hooks/pretool-phase-guard.js",
+        "osx": "node .github/hooks/pretool-phase-guard.js",
+        "timeout": 10
+      }
+    ]
+  }
+}

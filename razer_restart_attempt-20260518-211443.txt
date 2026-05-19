@@ -1,0 +1,21 @@
+=== razer restart attempt: 05/18/2026 21:14:43 ===
+Stopped process 1684 RazerAppEngine
+Stopped process 2352 RazerAppEngine
+Stopped process 10808 RazerAppEngine
+Stopped process 11960 RazerAppEngine
+Stopped process 12212 RazerAppEngine
+Stopped process 16308 RazerAppEngine
+Stopped process 16512 RazerAppEngine
+Stopped process 20636 RazerAppEngine
+Stopped process 22564 RazerAppEngine
+Stopped process 30072 RazerAppEngine
+Stopped process 31768 RazerAppEngine
+Stopped process 32684 RazerAppEngine
+Stopped process 32692 RazerAppEngine
+Started C:\Program Files\Razer\Razer Synapse Setup\Uninstall-Synapse.exe
+
+ProcessName                Id StartTime
+-----------                -- ---------
+razer_elevation_service 23300 
+
+

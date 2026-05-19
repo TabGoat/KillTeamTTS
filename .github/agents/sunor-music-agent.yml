@@ -1,0 +1,17 @@
+name: sunor-music-agent
+summary: Local Copilot agent that generates music using Suno
+run: powershell -File .\copilot_agent_wrapper.ps1
+
+description: |
+  This agent integrates the local Suno Flask service into the Copilot CLI.
+  It launches (or connects to) the local Flask service and lets you generate music using presets or custom prompts.
+
+usage: |
+  1. Ensure the Flask service is running: .\run_sunor_agent.ps1 -ApiKey "sk_your_key_here"
+  2. From the repository root, run: copilot /agent
+  3. Select "sunor-music-agent" from the list
+
+notes: |
+  - Expects a local HTTP service at http://localhost:5000
+  - Requires X-AGENT-AUTH header (set via wrapper)
+  - Do not expose API keys in repos; use env vars or secrets managers

@@ -1,0 +1,20 @@
+{
+  "Easy": {
+    "reaction_time": 1.5,
+    "aggression": 0.35,
+    "accuracy": 0.7,
+    "lookahead": 0
+  },
+  "Medium": {
+    "reaction_time": 1.0,
+    "aggression": 0.6,
+    "accuracy": 0.85,
+    "lookahead": 1
+  },
+  "Hard": {
+    "reaction_time": 0.6,
+    "aggression": 0.85,
+    "accuracy": 0.95,
+    "lookahead": 2
+  }
+}

@@ -1,0 +1,25 @@
+[2026-04-20T13:31:32.676Z] [INFO] PC Cleanup Service started — running startup cleanup...
+[2026-04-20T13:31:32.679Z] [INFO] Cleanup triggered by: startup
+[2026-04-20T13:31:32.683Z] [INFO] === Cleanup started ===
+[2026-04-20T13:31:33.544Z] [INFO] === Cleanup complete in 0.9s ===
+[2026-04-20T13:31:33.545Z] [INFO] Total freed: 3.96 MB across 11 files
+[2026-04-20T13:31:33.545Z] [INFO]   OK    %TEMP%: 0.03 MB, 7 files (4ms)
+[2026-04-20T13:31:33.546Z] [INFO]   OK    %LOCALAPPDATA%\Temp: 0.00 MB, 0 files (1ms)
+[2026-04-20T13:31:33.546Z] [INFO]   OK    C:\Windows\Temp: 0.00 MB, 0 files (0ms)
+[2026-04-20T13:31:33.547Z] [INFO]   OK    %LOCALAPPDATA%\Microsoft\Windows\INetCache: 0.00 MB, 1 files (1ms)
+[2026-04-20T13:31:33.547Z] [INFO]   OK    %LOCALAPPDATA%\Microsoft\Windows\INetCookies: 0.00 MB, 0 files (0ms)
+[2026-04-20T13:31:33.548Z] [INFO]   OK    Windows Update Cache: 0.74 MB, 2 files (1ms)
+[2026-04-20T13:31:33.548Z] [INFO]   OK    WER: C:\ProgramData\Microsoft\Windows\WER\ReportArchive: 0.00 MB, 0 files (0ms)
+[2026-04-20T13:31:33.549Z] [INFO]   OK    WER: C:\ProgramData\Microsoft\Windows\WER\ReportQueue: 0.00 MB, 0 files (0ms)
+[2026-04-20T13:31:33.549Z] [DEBUG]   SKIP  Thumbnail/Icon Cache: Path not found
+[2026-04-20T13:31:33.549Z] [INFO]   OK    Crash Dumps: C:\Windows\LiveKernelReports: 0.00 MB, 0 files (0ms)
+[2026-04-20T13:31:33.550Z] [DEBUG]   SKIP  Memory Dump (MEMORY.DMP): File not found
+[2026-04-20T13:31:33.550Z] [INFO]   OK    CBS Logs: 3.19 MB, 1 files (0ms)
+[2026-04-20T13:31:33.550Z] [INFO]   WARN  Recycle Bin: 0.00 MB, 0 files (540ms)
+[2026-04-20T13:31:33.551Z] [WARN]          ↳ Command failed: powershell.exe -NoProfile -Command "Clear-RecycleBin -Force -ErrorAction SilentlyContinue"
+[2026-04-20T13:31:33.551Z] [INFO]   OK    DNS Cache: 0.00 MB, 0 files (26ms)
+[2026-04-20T13:31:33.551Z] [INFO]   OK    ARP Cache: 0.00 MB, 0 files (29ms)
+[2026-04-20T13:31:33.552Z] [INFO]   OK    NetBIOS Cache: 0.00 MB, 0 files (25ms)
+[2026-04-20T13:31:33.552Z] [INFO]   OK    Winsock Catalog: 0.00 MB, 0 files (232ms)
+[2026-04-20T13:31:33.552Z] [INFO] Cleanup done — 3.96 MB freed.
+[2026-04-20T13:31:33.553Z] [INFO] Startup cleanup complete. Service is now idle.

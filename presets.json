@@ -1,0 +1,26 @@
+{
+  "lofi": {
+    "name": "Lo-Fi Chill",
+    "prompt": "A chill lo-fi beat with warm keys, soft vinyl crackle, laid-back drums and a mellow bassline",
+    "duration": 30,
+    "make_instrumental": true
+  },
+  "ambient": {
+    "name": "Ambient Pad",
+    "prompt": "Ethereal ambient pad with evolving textures, soft piano motifs and distant reverb, cinematic and calm",
+    "duration": 60,
+    "make_instrumental": true
+  },
+  "epic": {
+    "name": "Epic Orchestral",
+    "prompt": "Large orchestral score with powerful horns, driving strings, percussion and cinematic tension",
+    "duration": 45,
+    "make_instrumental": true
+  },
+  "pop": {
+    "name": "Pop Hook",
+    "prompt": "Upbeat pop song with catchy synth hooks, rhythmic guitars, driving drums and a singable vocal melody",
+    "duration": 30,
+    "make_instrumental": false
+  }
+}

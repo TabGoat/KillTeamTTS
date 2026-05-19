@@ -1,0 +1,100 @@
+===== keyboard_diagnose_noadmin started at 05/18/2026 21:14:18 =====
+--- OS / System ---
+
+Caption                  Version    BuildNumber
+-------                  -------    -----------
+Microsoft Windows 11 Pro 10.0.26200 26200      
+
+
+
+
+Manufacturer Model               Name    
+------------ -----               ----    
+ASUS         System Product Name THEBEAST
+
+
+
+--- Processes matching 'razer' ---
+
+ProcessName                Id StartTime            
+-----------                -- ---------            
+razer_elevation_service 23300 N/A                  
+RazerAppEngine           2352 2026-05-18 9:09:06 PM
+RazerAppEngine          10808 2026-05-18 9:09:07 PM
+RazerAppEngine          11960 2026-05-18 9:09:05 PM
+RazerAppEngine          12212 2026-05-18 9:09:06 PM
+RazerAppEngine          16308 2026-05-18 9:09:05 PM
+RazerAppEngine          16512 2026-05-18 9:09:07 PM
+RazerAppEngine          17404 2026-05-18 9:13:17 PM
+RazerAppEngine          20636 2026-05-18 9:13:57 PM
+RazerAppEngine          22564 2026-05-18 9:09:06 PM
+RazerAppEngine          30072 2026-05-18 9:09:07 PM
+RazerAppEngine          31768 2026-05-18 9:09:06 PM
+RazerAppEngine          32684 2026-05-18 9:09:08 PM
+RazerAppEngine          32692 2026-05-18 9:09:05 PM
+
+
+
+--- Services matching 'razer' ---
+
+Status  Name                         DisplayName                 
+------  ----                         -----------                 
+Running Razer Elevation Service      Razer Elevation Service     
+Running Razer Game Manager Service 3 Razer Game Manager Service 3
+
+
+
+--- Installed Programs mentioning Razer ---
+
+
+DisplayName   DisplayVersion Publisher 
+-----------   -------------- --------- 
+Razer Synapse 4.0.662        Razer Inc.
+
+
+
+--- PnP entities (Name matches Keyboard|Razer) ---
+
+Name                            PNPClass     DeviceID                                            Status
+----                            --------     --------                                            ------
+Razer Control Device            Razer Device RZCONTROL\VID_1532&PID_024E&MI_00\8&268358C4&0      OK    
+Razer BlackWidow V3             Mouse        HID\VID_1532&PID_024E&MI_02\7&296A6D31&0&0000       OK    
+HID Keyboard Device             Keyboard     HID\VID_1532&PID_0067&MI_01&COL01\7&39FF06A5&0&0000 OK    
+HID Keyboard Device             Keyboard     HID\VID_1532&PID_024E&MI_00\7&30A34B5&0&0000        OK    
+Razer Naga Trinity              Mouse        HID\VID_1532&PID_0067&MI_00\7&7F08&0&0000           OK    
+Razer BlackWidow                HIDClass     USB\VID_1532&PID_024E&MI_02\6&723E17A&0&0002        OK    
+Razer BlackWidow V3             HIDClass     USB\VID_1532&PID_024E&MI_01\6&723E17A&0&0001        OK    
+Razer BlackWidow V3             Keyboard     HID\VID_1532&PID_024E&MI_01&COL01\7&163A50F3&0&0000 OK    
+Razer Naga Trinity              HIDClass     USB\VID_1532&PID_0067&MI_02\6&72BF1E6&0&0002        OK    
+Razer Naga Trinity              HIDClass     USB\VID_1532&PID_0067&MI_01\6&72BF1E6&0&0001        OK    
+Razer Naga Trinity              HIDClass     USB\VID_1532&PID_0067&MI_00\6&72BF1E6&0&0000        OK    
+Razer Control Device            Razer Device RZCONTROL\VID_1532&PID_0067&MI_00\8&5A5829C&0       OK    
+HID Keyboard Device             Keyboard     HID\VID_046D&PID_C52B&MI_00\7&1C8900EF&0&0000       OK    
+Razer Naga Trinity              Keyboard     HID\VID_1532&PID_0067&MI_02\7&26CEEA67&0&0000       OK    
+HID Keyboard Device             Keyboard     HID\VID_046D&PID_C232\2&1A87F3A8&0&0000             OK    
+Logitech G HUB Virtual Keyboard HIDClass     LGHUBDEVICE\VID_046D&PID_C232\1&79F5D87&0&01        OK    
+
+
+
+--- USB Controllers ---
+
+Name                                                            Status DeviceID                                        
+----                                                            ------ --------                                        
+Intel(R) USB 3.20 eXtensible Host Controller - 1.20 (Microsoft) OK     PCI\VEN_8086&DEV_43ED&SUBSYS_86941043&REV_11\...
+
+
+
+--- powercfg /q (excerpt for 'USB') ---
+
+>   Subgroup GUID: 2a737441-1930-4402-8d77-b2bebba308a3  (USB settings)
+>     Power Setting GUID: 48e6b7a6-50f5-4782-a5d4-53bb8f07e226  (USB selective suspend setting)
+        Possible Setting Index: 000
+
+
+
+--- Recent System events mentioning USB/HID (last 48 hours) ---
+[05/17/2026 18:56:16] (Event 219) Microsoft-Windows-Kernel-PnP
+The driver \Driver\WUDFRd failed to load. 
+Device: HID\VID_046D&PID_0AAA&MI_03&Col02\7&26d7e364&0&0001 
+Status: 0xC0000365
+===== keyboard_diagnose_noadmin finished at 05/18/2026 21:14:20 =====

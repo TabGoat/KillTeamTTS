@@ -1,0 +1,28 @@
+{
+  "name": "pc-cleanup-agent",
+  "version": "1.0.0",
+  "description": "Windows Service that runs a thorough PC cleanup on every shutdown",
+  "main": "dist/service.js",
+  "bin": {
+    "osrs": "./dist/osrs/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "install-service": "npm run build && node install.js",
+    "uninstall-service": "node uninstall.js",
+    "run-once": "ts-node src/service.ts"
+  },
+  "keywords": ["windows", "cleanup", "service", "performance"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "node-windows": "^1.0.0-beta.8"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}
