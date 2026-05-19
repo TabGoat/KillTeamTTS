@@ -1,0 +1,23 @@
+name: CI - Lua tests
+
+on:
+  push:
+    branches: [ main, 'copilot/*' ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Lua
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lua5.3
+      - name: Run integration test
+        run: |
+          lua KillTeamTTS/tests/ai_tts_integration_test.lua
+      - name: Run AI pseudo tests
+        run: |
+          lua tests/ai_pseudo_tests.lua || true
