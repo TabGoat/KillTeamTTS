@@ -1,0 +1,7 @@
+{
+  "Name": "KillTeam TTS Prototype",
+  "Author": "TabGoat + Copilot",
+  "Version": "0.1",
+  "Files": ["Global.lua","board.lua","unit.lua","ai.lua","ai_config.json"],
+  "Description": "Prototype Kill Team implementation for Tabletop Simulator with AI opponent (scripting skeleton)."
+}
